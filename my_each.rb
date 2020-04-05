@@ -1,6 +1,6 @@
 
 def my_each(x)
-  if x.length !=0
+  if x.length != 0
     i = 0
     while x.length > 0 
       yield x[i]
@@ -8,7 +8,6 @@ def my_each(x)
   else
     puts "stuff"
   end
-  x 
 end
 
 # def hello_t(array)

@@ -1,11 +1,12 @@
 
 def my_each(x)
-  i = 
+  i = 0
   while x.length > 0 
     yield x[i]
     
     i = i + 1
   end
+  x
 end
 
 # def hello_t(array)

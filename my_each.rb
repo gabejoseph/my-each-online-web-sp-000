@@ -2,13 +2,13 @@ require 'pry'
 
 def my_each(x)
   if x.length = 0
-  i = 0
-  while i < x.length
-    yield x[i]
-    i = i + 1
-  end
-  binding.pry
-  x
+    i = 0
+    while i < x.length
+      yield x[i]
+      i = i + 1
+    end
+    binding.pry
+    x
 end
 
 

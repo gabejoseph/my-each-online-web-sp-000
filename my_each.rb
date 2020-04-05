@@ -9,7 +9,7 @@ def my_each(x)
     end
     x
   else 
-    "stuff"
+    return "stuff"
 end
 
 

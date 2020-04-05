@@ -7,8 +7,8 @@ def my_each(x)
       i = i + 1
     end
   end
-  x 
 end
+
 
 # def hello_t(array)
 #   i = 0

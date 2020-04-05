@@ -2,15 +2,10 @@ require 'pry'
 
 def my_each(x)
   i = 0
-  if x.length > 0
-    while i < x.length
-      yield x[i]
-      i = i + 1
-  else 
-    return "stuff"
-  end
-  x 
-end
+  x.length > 0
+  while i < x.length
+    yield x[i]
+    i = i + 1
 
 # def hello_t(array)
 #   i = 0

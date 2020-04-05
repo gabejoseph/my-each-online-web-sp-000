@@ -3,7 +3,6 @@ def my_each(x)
   i = 0
   while x.length > 0 
     yield x[i]
-    
     i = i + 1
   end
   x

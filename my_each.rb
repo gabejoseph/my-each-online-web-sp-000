@@ -6,6 +6,9 @@ def my_each(x)
   while i < x.length
     yield x[i]
     i = i + 1
+  end
+  x 
+end
 
 # def hello_t(array)
 #   i = 0

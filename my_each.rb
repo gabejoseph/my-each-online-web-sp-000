@@ -1,8 +1,8 @@
 
 def my_each(x)
   while x.length > 0 
-    
-    puts x
+        i = i + 1
+
   end
 end
 

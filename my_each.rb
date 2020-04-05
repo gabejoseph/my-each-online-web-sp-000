@@ -7,8 +7,9 @@ def my_each(x)
       yield x[i]
       i = i + 1
     end
-    binding.pry
     x
+  else 
+    "stuff"
 end
 
 

@@ -1,7 +1,6 @@
 
 def my_each(x)
-  x.length != 0
-    i = 0
+  i = 0
     while x.length > 0 
       yield x[i]
       i = i + 1

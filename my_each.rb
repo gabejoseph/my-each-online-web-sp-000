@@ -1,10 +1,12 @@
+require 'pry'
 
 def my_each(x)
   i = 0
-  while i < 4
+  while i < x.length
     yield x[i]
     i = i + 1
   end
+  binding.pry
   x
 end
 

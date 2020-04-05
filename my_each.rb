@@ -1,3 +1,18 @@
-def my_each # put argument(s) here
-  # code here
+
+def my_each(x)
+  while x.length > 0 
+    
+    puts x
+  end
 end
+
+# def hello_t(array)
+#   i = 0
+ 
+#   while i < array.length
+#     yield(array[i])
+#     i = i + 1
+#   end
+ 
+#   array
+# end

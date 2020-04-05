@@ -6,8 +6,7 @@ def my_each(x)
       yield x[i]
       i = i + 1
     end
-  puts x
-  end
+  puts x 
 end
 
 # def hello_t(array)

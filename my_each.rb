@@ -6,7 +6,7 @@ def my_each(x)
       yield x[i]
       i = i + 1
     end
-    return x
+  puts x
   end
 end
 

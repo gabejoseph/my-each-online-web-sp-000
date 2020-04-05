@@ -1,12 +1,12 @@
 
 def my_each(x)
-  if x.length != 0
+  x.length != 0
     i = 0
     while x.length > 0 
       yield x[i]
       i = i + 1
-  else
-    puts "stuff"
+    end
+    return x
   end
 end
 
